@@ -1,0 +1,15 @@
+{
+	"devel": true,
+	"indent": 1,
+	"strict": "implied",
+	"unused": false,
+	"browser": true,
+
+	"undef": true,
+	"validthis": true,
+	"esversion": 8,
+	"globals": {
+		"require": false,
+		"$": false
+	}
+}

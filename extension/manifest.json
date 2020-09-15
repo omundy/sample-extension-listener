@@ -1,0 +1,46 @@
+{
+	"manifest_version": 2,
+
+	"name": "Sample browser extension with listener",
+	"short_name": "Sample browser extension with listener",
+	"description": "Creates a listener on the page and notifies user on changes",
+	"version": "0.1",
+	"author": "Owen Mundy",
+
+	"icons": {
+		"16": "assets/img/icon_16x16.png",
+		"48": "assets/img/icon_48x48.png",
+		"128": "assets/img/icon_128x128.png"
+	},
+	"background": {
+		"scripts": [
+			"assets/js/background.js"
+		]
+	},
+	"content_scripts": [{
+		"matches": ["<all_urls>"],
+		"js": [
+			"assets/libs/jquery-3.2.1.min.js",
+			"assets/libs/jquery.growl.js",
+			"assets/js/content.js"
+		],
+		"css": [
+			"assets/libs/jquery.growl.css",
+			"assets/css/styles.css"
+		],
+		"run_at": "document_end"
+	}],
+	"permissions": [
+		"activeTab",
+		"storage",
+		"management"
+	],
+	"web_accessible_resources": [
+		"*.svg", "*.png",
+		"*.jpg", "*.JPG",
+		"*.gif", "*.GIF",
+		"/assets/*"
+	],
+	"content_security_policy": "script-src 'self'; object-src 'self';"
+
+}
