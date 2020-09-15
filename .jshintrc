@@ -1,15 +1,12 @@
 {
-	"devel": true,
-	"indent": 1,
-	"strict": "implied",
-	"unused": false,
-	"browser": true,
-
-	"undef": true,
-	"validthis": true,
 	"esversion": 8,
+	"strict": "implied",
+	"devel": true,
+	"browser": true,
+	"indent": 1,
+	"undef": true,
+	"unused": false,
 	"globals": {
-		"require": false,
 		"$": false
 	}
 }
