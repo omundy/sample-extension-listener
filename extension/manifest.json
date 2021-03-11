@@ -1,16 +1,17 @@
 {
 	"manifest_version": 2,
 
-	"name": "Sample browser extension with listener",
+	"name": "Sample Extension - 👂 Listener",
 	"short_name": "Sample browser extension with listener",
-	"description": "Creates a listener on the page and notifies user on changes",
+	"description": "Creates a listener on the page with MutationObserver and notifies user on changes",
 	"version": "0.1",
 	"author": "Owen Mundy",
 
 	"icons": {
-		"16": "assets/img/icon_16x16.png",
-		"48": "assets/img/icon_48x48.png",
-		"128": "assets/img/icon_128x128.png"
+		"16": "assets/img/icon-16x16.png",
+		"32": "assets/img/icon-32x32.png",
+		"48": "assets/img/icon-48x48.png",
+		"128": "assets/img/icon-128x128.png"
 	},
 	"background": {
 		"scripts": [
