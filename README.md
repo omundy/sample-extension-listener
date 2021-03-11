@@ -1,4 +1,4 @@
-# Sample Extension - 👂 Listener
+# Sample Extension - 🐥 Listener
 
 Creates a listener on the page with MutationObserver and notifies user on changes
 

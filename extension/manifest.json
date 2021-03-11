@@ -1,7 +1,7 @@
 {
 	"manifest_version": 2,
 
-	"name": "Sample Extension - 👂 Listener",
+	"name": "Sample Extension - 🐥 Listener",
 	"short_name": "Sample browser extension with listener",
 	"description": "Creates a listener on the page with MutationObserver and notifies user on changes",
 	"version": "0.1",
