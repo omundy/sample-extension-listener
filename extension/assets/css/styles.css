@@ -1,16 +1,17 @@
 /* a button at bottom right of the page */
-.buttonOnPage {
+.observerButtonOnPage {
 	z-index: 99999999999;
 	position: fixed;
-	right: 20px;
+	right: 120px;
 	bottom: 20px;
-	width: 40px;
-	height: 40px;
-	background-color: orange;
-	border: none;
+	width: 44px;
+	height: 44px;
+	background-color: black;
+	border: 2px solid black;
 	color: white;
 	text-align: center;
 	text-decoration: none;
 	font-size: 26px;
 	border-radius: 50%;
+	box-sizing: border-box;
 }

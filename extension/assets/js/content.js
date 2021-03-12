@@ -42,16 +42,16 @@ observer.observe(targetNode, observerConfig);
 
 
 /**
- *	Add a button to test mutations
+ *	Add a button to test
  */
 (function() {
 
 	// create button string and append it to page
-	let btn = "<button class='buttonOnPage'>👀</button>";
+	let btn = "<button class='observerButtonOnPage'>👀</button>";
 	document.body.insertAdjacentHTML('beforeend', btn);
 
 	// add button listener
-	document.querySelector(".buttonOnPage").addEventListener('click', () => {
+	document.querySelector(".observerButtonOnPage").addEventListener('click', () => {
 		// create paragraph element
 		let p = document.createElement("p");
 		// add the class we want to search for
