@@ -7,8 +7,7 @@ Watches web pages and notifies user on changes using MutationObserver
 
 - How to add HTML elements to a page with Javascript (from content script) using both `insertAdjacentHTML()` and `createElement()` methods
 - Use of [MutationObserver](https://developer.mozilla.org/en-US/docs/Web/API/MutationObserver)
-- Use of [jQuery Growl](http://ksylvest.github.io/jquery-growl/)
-
+- Use of [jQuery Growl](http://ksylvest.github.io/jquery-growl/) for notifications
 
 
 ### Info
