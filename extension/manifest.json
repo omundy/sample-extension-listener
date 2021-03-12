@@ -1,8 +1,8 @@
 {
 	"manifest_version": 2,
 
-	"name": "Sample Extension - 🐥 Observer",
-	"short_name": "Sample Extension - 🐥 Observer",
+	"name": "Sample Extension - 👀 Observer",
+	"short_name": "👀 Observer",
 	"description": "Watches web pages and notifies user on changes using MutationObserver",
 	"version": "0.1",
 	"author": "Owen Mundy",

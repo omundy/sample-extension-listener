@@ -16,10 +16,10 @@ var observer = new MutationObserver((mutations, observer) => {
 			if (!node.tagName) continue; // skip if not an HTML element
 			// if this is the right class
 			if (node.classList.contains('theClassYouAreLookingFor')) {
-				console.log("🐥 mutation observed", date);
+				console.log("👀 mutation observed", date);
 				// show notification if it is the type of mutation we are looking for
 				$.growl({
-					title: "🐥 mutation observed",
+					title: "👀 mutation observed",
 					message: date
 				});
 			}
@@ -47,7 +47,7 @@ observer.observe(targetNode, observerConfig);
 (function() {
 
 	// create button string and append it to page
-	let btn = "<button class='buttonOnPage'>🐥</button>";
+	let btn = "<button class='buttonOnPage'>👀</button>";
 	document.body.insertAdjacentHTML('beforeend', btn);
 
 	// add button listener
